@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wash Bros mobile exterior car detailing across Durham Region. We come to you.">
+  <title>Wash Bros | Mobile Car Wash</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <img src="wash-bros-logo.png" alt="Wash Bros logo">
+        <span>Wash Bros</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a class="btn btn-small" href="#contact">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">MOBILE EXTERIOR CAR DETAILING</p>
+          <h1>Your car, cleaned at your driveway.</h1>
+          <p class="hero-text">Wash Bros brings convenient exterior car detailing straight to you across the Durham Region. Reliable service, clean results, and no waiting at the wash.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Book a Wash</a>
+            <a class="btn btn-secondary" href="tel:9057456521">Call 905-745-6521</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ We come to you</span>
+            <span>✓ Durham Region</span>
+            <span>✓ Friendly local service</span>
+          </div>
+        </div>
+        <div class="hero-logo-card">
+          <img src="wash-bros-logo.png" alt="Wash Bros mobile car wash logo">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SERVICES</p>
+          <h2>Simple exterior detailing.</h2>
+          <p>Starting rates can be adjusted as you build your customer base and add more services.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card featured">
+            <div class="tag">Most Popular</div>
+            <h3>Exterior Detail</h3>
+            <p class="price">Starting at <strong>$50</strong></p>
+            <ul>
+              <li>Hand wash</li>
+              <li>Wheel & tire cleaning</li>
+              <li>Exterior windows</li>
+              <li>Thorough drying</li>
+              <li>Tire shine</li>
+              <li>Spray wax / protection</li>
+            </ul>
+            <a class="btn btn-full" href="#contact">Request a Booking</a>
+          </article>
+
+          <article class="card">
+            <h3>Larger Vehicles</h3>
+            <p class="price">SUVs & trucks <strong>quoted by size</strong></p>
+            <p>Bigger vehicles take more time and product. Send your vehicle make/model and we’ll confirm a price before the job.</p>
+            <a class="text-link" href="#contact">Get a quote →</a>
+          </article>
+
+          <article class="card">
+            <h3>Coming Soon</h3>
+            <p class="price"><strong>Interior detailing</strong></p>
+            <p>We’re building out our interior detailing services. Follow our social pages for new packages.</p>
+            <a class="text-link" href="#gallery">See our work →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">OUR WORK</p>
+          <h2>Before & after.</h2>
+          <p>Add your own photos here as you complete more customer vehicles.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-placeholder"><span>Before Photo</span><small>Replace with your image</small></div>
+          <div class="gallery-placeholder"><span>After Photo</span><small>Replace with your image</small></div>
+          <div class="gallery-placeholder"><span>Wheel Detail</span><small>Replace with your image</small></div>
+          <div class="gallery-placeholder"><span>Final Result</span><small>Replace with your image</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">WHY WASH BROS?</p>
+          <h2>Local, convenient, and built around good service.</h2>
+        </div>
+        <div>
+          <p>We’re a local mobile car wash serving drivers across Durham Region. Instead of making you drive to a detailing shop, we bring the wash to you.</p>
+          <p>Our goal is simple: show up, communicate clearly, do quality work, and leave your vehicle looking noticeably better.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">BOOK A DETAIL</p>
+          <h2>Ready to clean up your ride?</h2>
+          <p>Send us your vehicle, location, and preferred day. We’ll get back to you with availability and pricing.</p>
+          <div class="contact-links">
+            <a href="tel:9057456521">📞 905-745-6521</a>
+            <a href="mailto:washbrosgta@gmail.com">✉️ washbrosgta@gmail.com</a>
+            <span>📍 Durham Region, Ontario</span>
+          </div>
+        </div>
+
+        <form class="contact-form" action="mailto:washbrosgta@gmail.com" method="post" enctype="text/plain">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Phone<input type="tel" name="phone" placeholder="Your phone number" required></label>
+          <label>Vehicle<input type="text" name="vehicle" placeholder="Example: 2018 Honda Civic" required></label>
+          <label>Message<textarea name="message" rows="5" placeholder="Location, preferred date, vehicle condition, etc."></textarea></label>
+          <button class="btn btn-full" type="submit">Send Booking Request</button>
+          <small>This basic version opens the visitor's email app. You can later connect it to Formspree, EmailJS, or your own backend.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <div class="brand footer-brand">
+        <img src="wash-bros-logo.png" alt="">
+        <span>Wash Bros</span>
+      </div>
+      <p>© <span id="year"></span> Wash Bros. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
