@@ -1,29 +1,17 @@
-# Wash Bros Website — Revamp
+# Wash Bros Website V3
 
-Premium mobile detailing website for Wash Bros, designed as an original site with a polished, conversion-focused detailing-business feel.
+This version is a full redesign focused on a premium local-service / lead-generation layout.
 
-## Upload to GitHub
-Replace the files in your `Washbros-website-` repo with everything in this folder:
-- `index.html`
-- `styles.css`
-- `script.js`
-- `wash-bros-logo.png`
-- `work-1.jpeg`
-- `work-2.jpeg`
-- `work-3.jpeg`
+## Replace these files in your GitHub repo
+- index.html
+- styles.css
+- script.js
+- wash-bros-logo.png
+- work-1.jpeg
+- work-2.jpeg
+- work-3.jpeg
 
-Commit to `main`; GitHub Pages should redeploy automatically.
+## Quote form
+The quote form currently opens an email to washbrosgta@gmail.com with the submitted details.
 
-## Connect your Google Form
-1. Create your Google Form and copy the public form URL.
-2. Open `script.js`.
-3. Replace:
-   `PASTE_YOUR_GOOGLE_FORM_LINK_HERE`
-   with your real URL.
-4. Commit the change.
-
-Until you add the form URL, the button falls back to an email quote request.
-
-## Easy edits
-Pricing and service text are inside `index.html` under the `#services` section.
-Contact info appears in the quote section and footer.
+When your Google Form is ready, you can replace the form submission behavior with a link to your Google Form.
